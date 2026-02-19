@@ -1,10 +1,22 @@
-- 👋 Hi, I’m @tejasgsv
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+# Hi, I'm Tejas Goswami 👋
 
-<!---
-tejasgsv/tejasgsv is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+🚀 DevOps Intern Aspirant | Linux | Docker | Git | Jenkins  
+
+## 👀 I’m interested in
+- DevOps & Cloud Technologies  
+- CI/CD Automation  
+- Containerization & Infrastructure  
+
+## 🌱 I’m currently learning
+- Advanced Docker  
+- Jenkins Pipelines  
+- AWS Cloud Fundamentals  
+
+## 💞️ I’m looking to collaborate on
+- DevOps beginner projects  
+- Dockerized applications  
+- CI/CD practice repositories  
+
+## 📫 How to reach me
+- Email: goswamitejas909@gmail.com  
+- LinkedIn: linkedin.com/in/tejas-goswami  
