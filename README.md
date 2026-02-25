@@ -12,11 +12,11 @@
 - Jenkins Pipelines  
 - AWS Cloud Fundamentals  
 
-## 💞️ I’m looking to collaborate on
+## ✨ I’m looking to collaborate on
 - DevOps beginner projects  
 - Dockerized applications  
 - CI/CD practice repositories  
 
 ## 📫 How to reach me
 - Email: goswamitejas909@gmail.com  
-- LinkedIn: linkedin.com/in/tejas-goswami  
+- LinkedIn: https://www.linkedin.com/in/tejas-goswami-301606212
