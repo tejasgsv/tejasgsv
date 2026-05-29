@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/saadeghi/saadeghi/main/banner.png" alt="Tejas Goswami Banner" width="100%" />
+  <img src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?auto=format&fit=crop&w=1200&q=80" alt="DevOps Banner" width="100%" />
 </p>
 
 <h1 align="center">👋 Hi, I'm Tejas Goswami</h1>
@@ -101,3 +101,4 @@
   <i>❝ Always building. Always learning. Always automating. ❞</i><br>
   <img src="https://komarev.com/ghpvc/?username=tejasgsv&label=Profile%20views&color=0e75b6&style=flat" alt="tejasgsv" />
 </p>
+
