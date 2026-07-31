@@ -12,13 +12,12 @@ permissions:
   pages: write
   id-token: write
 
-# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# Allow only one concurrent deployment
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job for static HTML/CSS/JS site
   deploy:
     environment:
       name: github-pages
@@ -28,10 +27,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Setup & Enable GitHub Pages
+      - name: Setup GitHub Pages
         uses: actions/configure-pages@v5
-        with:
-          enablement: true
 
       - name: Upload Artifacts (HTML, CSS, JS)
         uses: actions/upload-pages-artifact@v3
