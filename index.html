@@ -1,0 +1,582 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tejas Goswami | DevOps Engineer & Azure Cloud Specialist</title>
+  <meta name="description" content="DevOps Engineer with 2+ years of professional experience in Azure Cloud, Terraform, Docker, Kubernetes, CI/CD Automation, and Production Support.">
+  <meta name="keywords" content="Tejas Goswami, DevOps Engineer, Azure Cloud, Terraform, Kubernetes, Docker, CI/CD, Reliance Jio, Infrastructure as Code">
+  <meta name="author" content="Tejas Goswami">
+
+  <!-- OpenGraph / Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Tejas Goswami | DevOps Engineer">
+  <meta property="og:description" content="Automating today for a more reliable tomorrow. Azure, Terraform, K8s, CI/CD Specialist.">
+  <meta property="og:url" content="https://tejasgsv.github.io/">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Background Grid Effect -->
+  <div class="bg-grid"></div>
+
+  <!-- Navbar -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-badge">TG</div>
+        <div>Tejas <span>Goswami</span></div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#terminal" class="nav-link">Terminal CLI</a></li>
+        <li><a href="#skills" class="nav-link">Tech Stack</a></li>
+        <li><a href="#experience" class="nav-link">Experience</a></li>
+        <li><a href="#projects" class="nav-link">Featured Project</a></li>
+        <li><a href="#certs" class="nav-link">Certifications</a></li>
+      </ul>
+      <a href="#contact" class="btn-contact-nav">Get In Touch</a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero" id="hero">
+    <div class="container">
+      <div class="hero-grid">
+        <div class="hero-content">
+          <div class="status-pill">
+            <span class="status-dot"></span>
+            Available for DevOps & Cloud Engineering Roles
+          </div>
+          <h1 class="hero-title">
+            Hi 👋, I'm <span class="gradient-text">Tejas Goswami</span>
+          </h1>
+          <div class="hero-subtitle">
+            &gt;&nbsp;<span class="typed-text"></span><span class="typed-cursor">|</span>
+          </div>
+          <p class="hero-bio">
+            DevOps Engineer with <strong>2+ years of professional experience</strong> at Reliance Jio. Specializing in designing, automating, deploying, and supporting resilient cloud infrastructure on Microsoft Azure using Terraform, Kubernetes, Docker, and CI/CD pipelines.
+          </p>
+          <div class="hero-actions">
+            <a href="#terminal" class="btn-primary">
+              <span>⚡ Launch CLI Terminal</span>
+            </a>
+            <a href="https://github.com/tejasgsv" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+              <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+              View GitHub Profile
+            </a>
+            <button onclick="copyEmail()" class="btn-secondary" title="Click to copy email">
+              📧 Copy Email
+            </button>
+          </div>
+        </div>
+
+        <!-- Hero Card / Mascot -->
+        <div class="hero-visual">
+          <div style="background: var(--bg-card); border: 1px solid var(--border-highlight); border-radius: var(--radius-lg); padding: 2rem; backdrop-filter: var(--glass-backdrop); box-shadow: var(--shadow-glow);">
+            <div style="display: flex; align-items: center; gap: 15px; margin-bottom: 1.5rem;">
+              <div style="width: 50px; height: 50px; border-radius: 12px; background: rgba(14, 165, 233, 0.2); display: flex; align-items: center; justify-content: center; font-size: 1.8rem;">☁️</div>
+              <div>
+                <h3 style="font-family: var(--font-heading); font-size: 1.2rem;">Infrastructure Architect</h3>
+                <p style="color: var(--text-muted); font-size: 0.85rem;">Azure Cloud & IaC Automation</p>
+              </div>
+            </div>
+            <div style="background: rgba(0,0,0,0.3); border-radius: var(--radius-sm); padding: 1rem; font-family: var(--font-mono); font-size: 0.8rem; color: #a7f3d0;">
+              <div>$ terraform apply --auto-approve</div>
+              <div style="color: #60a5fa;">[+] azurerm_resource_group.rg... ok</div>
+              <div style="color: #60a5fa;">[+] azurerm_kubernetes_cluster.aks... ok</div>
+              <div style="color: #34d399;">Apply complete! Resources: 12 added.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Quick Metrics Row -->
+      <div class="metrics-grid">
+        <div class="metric-card">
+          <div class="metric-number">2+</div>
+          <div class="metric-label">Years Pro Experience</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">Reliance Jio</div>
+          <div class="metric-label">Production DevOps Engineer</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">99.9%</div>
+          <div class="metric-label">Reliability & Monitoring Focus</div>
+        </div>
+        <div class="metric-card">
+          <div class="metric-number">Azure + IaC</div>
+          <div class="metric-label">Core Specialization</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Terminal Section -->
+  <section class="section" id="terminal">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Interactive Experience</span>
+        <h2 class="section-title">DevOps CLI Terminal</h2>
+        <p class="section-desc">Type commands below or click presets to inspect infrastructure configurations, skills, and workload status in real-time.</p>
+      </div>
+
+      <div class="terminal-window">
+        <div class="terminal-header">
+          <div class="terminal-controls">
+            <span class="control-dot red"></span>
+            <span class="control-dot yellow"></span>
+            <span class="control-dot green"></span>
+          </div>
+          <div class="terminal-title">bash — tejas@azure-devops-node:~</div>
+          <div class="terminal-actions">
+            <button class="btn-term-preset" data-cmd="help">help</button>
+            <button class="btn-term-preset" data-cmd="tejas --skills">--skills</button>
+            <button class="btn-term-preset" data-cmd="az account show">az account</button>
+            <button class="btn-term-preset" data-cmd="kubectl get pods">kubectl</button>
+            <button class="btn-term-preset" data-cmd="terraform plan">terraform</button>
+            <button class="btn-term-preset" data-cmd="clear">clear</button>
+          </div>
+        </div>
+        <div class="terminal-body" id="terminal-body">
+          <div class="terminal-line">
+            <span class="term-prompt">tejas@devops-node:~$</span> Welcome to Tejas Goswami's DevOps Terminal. Type <span class="term-output-highlight">'help'</span> to view commands or click preset buttons above.
+          </div>
+        </div>
+        <div style="padding: 10px 1.5rem; background: #161b22; border-top: 1px solid rgba(255,255,255,0.05);">
+          <div class="terminal-input-row">
+            <span class="term-prompt">tejas@devops-node:~$</span>
+            <input type="text" class="terminal-input" id="terminal-input" placeholder="Type a command (e.g. 'help', 'tejas --skills', 'az account show')..." autocomplete="off" spellcheck="false">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Background & Philosophy</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-desc">Passionate about building scalable cloud infrastructure and automating delivery pipelines.</p>
+      </div>
+
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 2rem;">
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 2rem; backdrop-filter: var(--glass-backdrop);">
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 1rem; color: var(--primary-azure);">🚀 Cloud & Automation Engineering</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            I am a DevOps Engineer with over 2 years of hands-on experience provisioning, deploying, and supporting enterprise cloud infrastructure on <strong>Microsoft Azure</strong>. I specialize in turning manual operations into automated, repeatable Infrastructure as Code (IaC) workflows.
+          </p>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 2rem; backdrop-filter: var(--glass-backdrop);">
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 1rem; color: var(--accent-cyan);">⚡ Operational Excellence</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Experienced in managing high-availability environments, containerizing services with Docker, deploying applications on Kubernetes, and monitoring live telemetry using Azure Monitor and Log Analytics for rapid incident resolution.
+          </p>
+        </div>
+
+        <div style="background: var(--bg-card); border: 1px solid var(--border-color); border-radius: var(--radius-md); padding: 2rem; backdrop-filter: var(--glass-backdrop);">
+          <h3 style="font-family: var(--font-heading); font-size: 1.3rem; margin-bottom: 1rem; color: var(--accent-indigo);">🌱 Continuous Evolution</h3>
+          <p style="color: var(--text-muted); font-size: 0.95rem;">
+            Constantly mastering modern cloud-native standards. Currently deepening expertise in <strong>OpenShift, Helm, GitOps, ArgoCD, IBM Cloud Pak</strong>, and advanced AKS cluster administration.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Matrix Section -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Technical Toolkit</span>
+        <h2 class="section-title">Tech Stack & Competencies</h2>
+        <p class="section-desc">Technologies and tools I use daily to architect and support production cloud systems.</p>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="skills-tabs">
+        <button class="tab-btn active" data-category="all">All Tools</button>
+        <button class="tab-btn" data-category="cloud">Cloud & IaC</button>
+        <button class="tab-btn" data-category="containers">Containers & K8s</button>
+        <button class="tab-btn" data-category="cicd">CI/CD & DevOps</button>
+        <button class="tab-btn" data-category="monitoring">Monitoring & OS</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid" id="skills-grid">
+        
+        <!-- Azure -->
+        <div class="skill-card" data-category="cloud">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">☁️</div>
+              <div>
+                <div class="skill-name">Microsoft Azure</div>
+                <div class="skill-level">Cloud Platform</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">VNets, VMs, Storage Accounts, Networking, Log Analytics & AKS</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 92%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Terraform -->
+        <div class="skill-card" data-category="cloud">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">⚙️</div>
+              <div>
+                <div class="skill-name">Terraform</div>
+                <div class="skill-level">Infrastructure as Code</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Reusable IaC Modules, State Management, Automated Provisioning</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Docker -->
+        <div class="skill-card" data-category="containers">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">🐳</div>
+              <div>
+                <div class="skill-name">Docker</div>
+                <div class="skill-level">Containerization</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Multi-stage Builds, Microservices Packaging, Registry Management</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Kubernetes -->
+        <div class="skill-card" data-category="containers">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">☸️</div>
+              <div>
+                <div class="skill-name">Kubernetes / AKS</div>
+                <div class="skill-level">Container Orchestration</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Deployments, Services, ConfigMaps, Ingress, Pod Troubleshooting</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Azure DevOps -->
+        <div class="skill-card" data-category="cicd">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">🚀</div>
+              <div>
+                <div class="skill-name">Azure DevOps</div>
+                <div class="skill-level">CI/CD Pipelines</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">YAML Build/Release Pipelines, Artifacts, Boards Integration</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+        </div>
+
+        <!-- GitHub Actions -->
+        <div class="skill-card" data-category="cicd">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">🔧</div>
+              <div>
+                <div class="skill-name">GitHub Actions</div>
+                <div class="skill-level">Automated Workflows</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Custom Workflow Triggers, Secret Management, Deployment Jobs</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 88%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Linux & Bash -->
+        <div class="skill-card" data-category="monitoring">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">🐧</div>
+              <div>
+                <div class="skill-name">Linux & Bash</div>
+                <div class="skill-level">Operating System & Scripting</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Server Administration, Shell Automation, Process Monitoring</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 90%;"></div></div>
+          </div>
+        </div>
+
+        <!-- Azure Monitor & Log Analytics -->
+        <div class="skill-card" data-category="monitoring">
+          <div>
+            <div class="skill-top">
+              <div class="skill-icon">📊</div>
+              <div>
+                <div class="skill-name">Azure Monitor & Logs</div>
+                <div class="skill-level">Telemetry & Monitoring</div>
+              </div>
+            </div>
+            <p style="font-size: 0.85rem; color: var(--text-muted);">Log Analytics, KQL Queries, Alert Rules, Incident Resolution</p>
+          </div>
+          <div>
+            <div class="skill-bar-bg"><div class="skill-bar-fill" style="width: 85%;"></div></div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Work Experience Section -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Career History</span>
+        <h2 class="section-title">Professional Experience</h2>
+        <p class="section-desc">Track record of delivering cloud infrastructure and supporting mission-critical enterprise systems.</p>
+      </div>
+
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="role-header">
+              <div>
+                <h3 class="role-title">DevOps Engineer</h3>
+                <div class="company-name">Reliance Jio</div>
+              </div>
+              <span class="role-period">2+ Years Experience</span>
+            </div>
+
+            <ul class="role-bullets">
+              <li>Provisioned and managed Azure Cloud Infrastructure (VNet, VMs, Storage Accounts, Networking) using modular Terraform IaC codebases.</li>
+              <li>Built and optimized end-to-end CI/CD automation pipelines utilizing Azure DevOps & GitHub Actions to streamline software releases.</li>
+              <li>Containerized application workloads with Docker and supported Kubernetes application deployments across staging and production clusters.</li>
+              <li>Managed 24/7 Production Support, performing rapid incident troubleshooting and resolving root-cause infrastructure issues.</li>
+              <li>Configured real-time infrastructure telemetry and alerting using Azure Monitor and Log Analytics workspace dashboards.</li>
+              <li>Collaborated cross-functionally with Software Developers, QA Engineers, and System Operations teams to enhance deployment reliability.</li>
+            </ul>
+
+            <div class="tech-tags">
+              <span class="tech-tag">Azure</span>
+              <span class="tech-tag">Terraform</span>
+              <span class="tech-tag">Docker</span>
+              <span class="tech-tag">Kubernetes</span>
+              <span class="tech-tag">Azure DevOps</span>
+              <span class="tech-tag">GitHub Actions</span>
+              <span class="tech-tag">Linux</span>
+              <span class="tech-tag">Azure Monitor</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Project Section -->
+  <section class="section" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Spotlight Showcase</span>
+        <h2 class="section-title">Featured Project</h2>
+        <p class="section-desc">Key architectural contribution delivering scalable enterprise solution.</p>
+      </div>
+
+      <div class="project-card">
+        <span class="project-badge">Enterprise IoT & Cloud Architecture</span>
+        <h3 class="project-title">Industrial IoT Monitoring Platform</h3>
+        <p class="project-desc">
+          Designed, automated, and supported a cloud-native Industrial IoT Monitoring solution that collects real-time telemetry and alarm signals from gateway devices and visualizes them on a centralized Network Operations Center (NOC) dashboard for proactive incident management.
+        </p>
+
+        <h4 style="font-family: var(--font-heading); font-size: 1.1rem; color: var(--primary-azure); margin-top: 1.5rem; margin-bottom: 0.8rem;">
+          ⚙️ Automated Deployment & Telemetry Architecture Flow:
+        </h4>
+
+        <!-- Architecture Flow Visualizer -->
+        <div class="arch-diagram">
+          <div class="arch-flow">
+            <div class="arch-step">
+              <div class="arch-step-icon">📡</div>
+              <div class="arch-step-title">IoT Gateways</div>
+              <div class="arch-step-sub">Telemetry & Alarms</div>
+            </div>
+            <div class="arch-arrow">➔</div>
+            <div class="arch-step">
+              <div class="arch-step-icon">⚙️</div>
+              <div class="arch-step-title">Terraform IaC</div>
+              <div class="arch-step-sub">Azure VNets & Storage</div>
+            </div>
+            <div class="arch-arrow">➔</div>
+            <div class="arch-step">
+              <div class="arch-step-icon">🐳</div>
+              <div class="arch-step-title">Docker & AKS</div>
+              <div class="arch-step-sub">Microservices Cluster</div>
+            </div>
+            <div class="arch-arrow">➔</div>
+            <div class="arch-step">
+              <div class="arch-step-icon">📊</div>
+              <div class="arch-step-title">Azure Monitor</div>
+              <div class="arch-step-sub">Log Analytics Dashboard</div>
+            </div>
+            <div class="arch-arrow">➔</div>
+            <div class="arch-step">
+              <div class="arch-step-icon">🖥️</div>
+              <div class="arch-step-title">NOC NOC Center</div>
+              <div class="arch-step-sub">Live Alert Response</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="tech-tags" style="margin-top: 1.5rem;">
+          <span class="tech-tag">Azure Cloud</span>
+          <span class="tech-tag">Terraform Modules</span>
+          <span class="tech-tag">Docker Containers</span>
+          <span class="tech-tag">Kubernetes Deployment</span>
+          <span class="tech-tag">Azure DevOps CI/CD</span>
+          <span class="tech-tag">Log Analytics</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications & Learning Section -->
+  <section class="section" id="certs">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Credentials & Roadmap</span>
+        <h2 class="section-title">Certifications & Continuous Learning</h2>
+        <p class="section-desc">Upgrading cloud skills and keeping pace with modern GitOps standards.</p>
+      </div>
+
+      <div class="certs-grid">
+        <div class="cert-card">
+          <div class="cert-badge-icon">📜</div>
+          <div class="cert-info">
+            <h4>Microsoft Azure Fundamentals</h4>
+            <div class="cert-status completed">AZ-900 Certification</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge-icon">🏗️</div>
+          <div class="cert-info">
+            <h4>HashiCorp Terraform Associate</h4>
+            <div class="cert-status">In Progress / Advanced Learning</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge-icon">☸️</div>
+          <div class="cert-info">
+            <h4>Certified Kubernetes Administrator</h4>
+            <div class="cert-status">CKA Roadmap Learning</div>
+          </div>
+        </div>
+
+        <div class="cert-card">
+          <div class="cert-badge-icon">🔴</div>
+          <div class="cert-info">
+            <h4>Red Hat OpenShift & GitOps</h4>
+            <div class="cert-status">ArgoCD & Helm Charts</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GitHub Statistics Section -->
+  <section class="section" id="github-stats">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">// Open Source & Metrics</span>
+        <h2 class="section-title">GitHub Stats & Insights</h2>
+        <p class="section-desc">Live activity telemetry synced directly with GitHub.</p>
+      </div>
+
+      <div class="github-stats-container">
+        <div class="github-widgets">
+          <img src="https://github-readme-stats.vercel.app/api?username=tejasgsv&show_icons=true&theme=tokyonight&border_color=0ea5e9" alt="Tejas Goswami GitHub Stats">
+          <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tejasgsv&layout=compact&theme=tokyonight&border_color=0ea5e9" alt="Top Languages">
+        </div>
+        <div class="github-widgets">
+          <img src="https://github-readme-streak-stats.herokuapp.com?user=tejasgsv&theme=tokyonight&border=0EA5E9" alt="GitHub Streak">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact & Footer Section -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="contact-card">
+        <h2 class="contact-title">Let's Connect & Build Together</h2>
+        <p class="contact-text">
+          Interested in discussing Azure Cloud Infrastructure, DevOps Automation, or potential collaboration? Send me an email or connect on LinkedIn!
+        </p>
+
+        <div class="contact-links">
+          <button onclick="copyEmail()" class="btn-primary">
+            <span>📧 Copy Email: goswamitejas909@gmail.com</span>
+          </button>
+
+          <a href="https://www.linkedin.com/in/tejas-goswami-301606212/" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+            LinkedIn Profile
+          </a>
+
+          <a href="https://github.com/tejasgsv" target="_blank" rel="noopener noreferrer" class="btn-secondary">
+            <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0024 12c0-6.63-5.37-12-12-12z"/></svg>
+            GitHub Profile
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2026 Tejas Goswami — DevOps Engineer. Hosted on GitHub Pages.</p>
+      <p style="margin-top: 5px; font-size: 0.8rem; color: var(--text-muted);">
+        ⭐ "Automating today for a more reliable tomorrow."
+      </p>
+    </div>
+  </footer>
+
+  <!-- Toast Element -->
+  <div id="toast" class="toast"></div>
+
+  <!-- Custom JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>
