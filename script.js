@@ -168,8 +168,8 @@ document.addEventListener('DOMContentLoaded', () => {
     "kubectl get pods": () => `
 <div class="term-output">
   NAME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;READY &nbsp;&nbsp;STATUS &nbsp;&nbsp;&nbsp;RESTARTS &nbsp;&nbsp;AGE<br>
-  iiot-monitoring-gateway-7b9f8d &nbsp;1/1 &nbsp;&nbsp;&nbsp;&nbsp;Running &nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45d<br>
-  noc-dashboard-api-559c6d48-x2 &nbsp;&nbsp;2/2 &nbsp;&nbsp;&nbsp;&nbsp;Running &nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45d<br>
+  enterprise-api-gateway-7b9f8d &nbsp;1/1 &nbsp;&nbsp;&nbsp;&nbsp;Running &nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45d<br>
+  auth-microservice-559c6d48-x2 &nbsp;2/2 &nbsp;&nbsp;&nbsp;&nbsp;Running &nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;45d<br>
   azure-log-analytics-collector &nbsp;1/1 &nbsp;&nbsp;&nbsp;&nbsp;Running &nbsp;&nbsp;0 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;90d
 </div>`,
 
@@ -186,7 +186,7 @@ document.addEventListener('DOMContentLoaded', () => {
     "docker ps": () => `
 <div class="term-output">
   CONTAINER ID &nbsp;&nbsp;IMAGE &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMMAND &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CREATED &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;STATUS<br>
-  e4d8a1f9c2e0 &nbsp;&nbsp;iiot-gateway:v2.4.1 &nbsp;&nbsp;&nbsp;"/bin/sh -c..." &nbsp;2 days ago &nbsp;&nbsp;&nbsp;&nbsp;Up 2 days (healthy)<br>
+  e4d8a1f9c2e0 &nbsp;&nbsp;enterprise-api:v2.4 &nbsp;&nbsp;&nbsp;"/bin/sh -c..." &nbsp;2 days ago &nbsp;&nbsp;&nbsp;&nbsp;Up 2 days (healthy)<br>
   3b9f1a4e7c8d &nbsp;&nbsp;elk-logstash:8.11.0 &nbsp;&nbsp;&nbsp;"/usr/share/..." 5 days ago &nbsp;&nbsp;&nbsp;&nbsp;Up 5 days (healthy)
 </div>`,
 
@@ -199,7 +199,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     uptime: () => `
 <div class="term-output">
-  22:06:31 up 365 days, 99.99% uptime, 0 critical incidents, load average: 0.12, 0.08, 0.05
+  22:08:21 up 365 days, 99.99% uptime, 0 critical incidents, load average: 0.12, 0.08, 0.05
 </div>`,
 
     whoami: () => `

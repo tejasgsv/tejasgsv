@@ -34,7 +34,7 @@
   <table border="0" cellspacing="0" cellpadding="0">
     <tr>
       <td align="center" width="200">
-        <h3>💼 2+ Years</h3>
+        <h3>💼 ~2 Years</h3>
         <p>Pro DevOps Experience</p>
       </td>
       <td align="center" width="220">
@@ -272,24 +272,24 @@ Below is my standard automated release pipeline design for infrastructure and ap
 
 ## 🚀 11. Featured Projects
 
-### 1️⃣ Automated Infrastructure Deployment Pipeline
+### 1️⃣ Automated Enterprise Cloud & Microservices Infrastructure
 - **Tech Stack**: `Microsoft Azure` | `Terraform` | `GitHub Actions` | `Azure CLI` | `Bash`
-- **Description**: Designed an automated Infrastructure as Code pipeline that provisions an end-to-end Microsoft Azure environment (VNets, Subnets, Storage Accounts, NSGs, Linux VMs).
-- **Key Outcome**: Eliminated manual portal configurations, ensured version-controlled infrastructure state management, and enabled one-click reproducible deployments across environments.
+- **Description**: Designed and automated a high-availability cloud infrastructure platform on Microsoft Azure to provision VNets, Subnets, Storage Accounts, NSGs, and Linux Compute instances.
+- **Key Outcome**: Replaced manual portal configurations with modular Infrastructure as Code (IaC), enforced version-controlled state management, and enabled reproducible multi-environment deployments.
 
 ---
 
-### 2️⃣ DevSecOps CI/CD Policy Integration
+### 2️⃣ DevSecOps CI/CD Policy Integration Suite
 - **Tech Stack**: `Azure DevOps` | `Checkov` | `tfsec` | `TFLint` | `YAML`
-- **Description**: Built a security-first automated pull-request validation pipeline inside Azure DevOps Pipelines.
-- **Key Outcome**: Automatically scans Terraform IaC code against security best practices, catches hardcoded secrets and unencrypted storage buckets, and enforces compliance policies before code merges into `main`.
+- **Description**: Built an automated, security-first pull-request validation pipeline in Azure DevOps Pipelines.
+- **Key Outcome**: Automated scanning of Terraform code for security vulnerabilities, preventing hardcoded credentials, open NSG ports, or unencrypted storage buckets prior to code merging into production.
 
 ---
 
-### 3️⃣ Multi-Service Observability Stack
+### 3️⃣ High-Availability Observability & Logging Stack
 - **Tech Stack**: `ELK Stack (Elasticsearch, Logstash, Kibana)` | `Azure Monitor` | `Log Analytics`
-- **Description**: Configured a centralized log aggregation and infrastructure telemetry monitoring stack for distributed application services.
-- **Key Outcome**: Streamlined real-time log analysis, created interactive Kibana dashboards for Operations teams, and configured automated threshold alerting for high CPU/Memory/Disk usage.
+- **Description**: Architected a centralized telemetry and log aggregation monitoring stack for enterprise microservices.
+- **Key Outcome**: Provided real-time log visualization, custom Kibana operational dashboards, and automated threshold alerts for high CPU, memory, and disk usage across cloud workloads.
 
 ---
 
