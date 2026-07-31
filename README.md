@@ -270,26 +270,31 @@ Below is my standard automated release pipeline design for infrastructure and ap
 
 ---
 
-## 🚀 11. Featured Projects
+## 🚀 11. Featured Repositories Showcase
 
-### 1️⃣ Automated Enterprise Cloud & Microservices Infrastructure
-- **Tech Stack**: `Microsoft Azure` | `Terraform` | `GitHub Actions` | `Azure CLI` | `Bash`
-- **Description**: Designed and automated a high-availability cloud infrastructure platform on Microsoft Azure to provision VNets, Subnets, Storage Accounts, NSGs, and Linux Compute instances.
-- **Key Outcome**: Replaced manual portal configurations with modular Infrastructure as Code (IaC), enforced version-controlled state management, and enabled reproducible multi-environment deployments.
+### 1️⃣ [Automated Infrastructure Deployment](https://github.com/tejasgsv/Automated-Infrastructure-Deployment-)
+- **Tech Stack**: `Microsoft Azure` | `Terraform` | `Checkov` | `tfsec` | `Log Analytics`
+- **Description**: Modular Infrastructure as Code (IaC) repository provisioning Azure VNets, Storage Accounts, Compute Instances, and Log Analytics workspaces with integrated Checkov & tfsec static security scanning.
 
----
+### 2️⃣ [Production FastAPI Deployment Stack](https://github.com/tejasgsv/ai-devops-assignment)
+- **Tech Stack**: `FastAPI` | `Docker Compose` | `NGINX` | `PostgreSQL` | `Redis` | `GitHub Actions`
+- **Description**: Production multi-container architecture deploying a FastAPI backend with PostgreSQL & Redis caching through NGINX Reverse Proxy on an Azure VPS via automated GitHub Actions CI/CD workflows.
 
-### 2️⃣ DevSecOps CI/CD Policy Integration Suite
-- **Tech Stack**: `Azure DevOps` | `Checkov` | `tfsec` | `TFLint` | `YAML`
-- **Description**: Built an automated, security-first pull-request validation pipeline in Azure DevOps Pipelines.
-- **Key Outcome**: Automated scanning of Terraform code for security vulnerabilities, preventing hardcoded credentials, open NSG ports, or unencrypted storage buckets prior to code merging into production.
+### 3️⃣ [Autonomous Job Application AI Agent](https://github.com/tejasgsv/naukari_apply_agent)
+- **Tech Stack**: `Agentic AI` | `Python` | `Playwright` | `Selenium` | `OpenAI/Gemini API`
+- **Description**: Multi-portal autonomous AI agent executing browser automation, resume matching algorithms, and automated application submissions across Naukri, LinkedIn, and Indeed.
 
----
+### 4️⃣ [FPO Digital Agriculture Platform](https://github.com/tejasgsv/fpo-platform)
+- **Tech Stack**: `NestJS` | `TypeScript` | `Prisma ORM` | `PostgreSQL` | `Next.js` | `GitHub Actions`
+- **Description**: Enterprise full-stack digital agriculture platform built with NestJS backend, Prisma ORM database models, Next.js frontend, and GitHub Actions verification pipelines.
 
-### 3️⃣ High-Availability Observability & Logging Stack
-- **Tech Stack**: `ELK Stack (Elasticsearch, Logstash, Kibana)` | `Azure Monitor` | `Log Analytics`
-- **Description**: Architected a centralized telemetry and log aggregation monitoring stack for enterprise microservices.
-- **Key Outcome**: Provided real-time log visualization, custom Kibana operational dashboards, and automated threshold alerts for high CPU, memory, and disk usage across cloud workloads.
+### 5️⃣ [RF Event Management & Hardening Suite](https://github.com/tejasgsv/rf-event-management)
+- **Tech Stack**: `Node.js` | `Express` | `MongoDB` | `Docker Compose` | `Shell Hardening`
+- **Description**: Microservices-based event management system featuring Docker Compose orchestration and production server security deployment hardening scripts (`deploy-hardening.sh`).
+
+### 6️⃣ [Automated Binance Futures Trading Engine](https://github.com/tejasgsv/binance-trading-bot)
+- **Tech Stack**: `Python` | `Binance API` | `Flask` | `Technical Analysis` | `CLI`
+- **Description**: Algorithmic crypto trading bot implementing technical indicator signals, risk management stop-loss / take-profit calculations, CLI interactive commands, and Flask Web UI.
 
 ---
 
